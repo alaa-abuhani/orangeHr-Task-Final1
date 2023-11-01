@@ -1,6 +1,6 @@
 class login {
   elements = {
-    userName: () => cy.get('[placeholder="Username"]'), // support/commands.ts,
+    userName: () => cy.get('[placeholder="Username"]'),
     password: () => cy.get('[placeholder="Password"]'),
     loginBtn: () => cy.get("button"),
     Dashboard: () => cy.get(".oxd-topbar-header-title"),
